@@ -12,4 +12,5 @@ const DoctorSchema = new Schema({
     designation: { type: String }
 });
 
-export const Doctor = mongoose.model("Doctor", DoctorSchema);
+
+module.exports = mongoose.model("Doctor", DoctorSchema);

@@ -26,4 +26,5 @@ const PatientSchema = new Schema({
     sleepQuality: { type: Number }
 });
 
-export const Patient = mongoose.model("Patient", PatientSchema);
+
+module.exports = mongoose.model("Patient", PatientSchema);
