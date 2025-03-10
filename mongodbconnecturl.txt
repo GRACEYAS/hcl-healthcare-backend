@@ -1,0 +1,1 @@
+const uri = 'mongodb+srv://mpvijayakumar88:Password123@cluster23.ztn2x.mongodb.net/?retryWrites=true&w=majority&appName=Cluster23';
